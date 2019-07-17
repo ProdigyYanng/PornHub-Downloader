@@ -3,7 +3,7 @@
 
 ## Important Notice: This project is aim to study Node.js, so I will not update this project
 
-## 重要通知：本项目旨在学习`Node.js`，从今日（2018-09-09）起不再维护。（年轻虽好，切莫强撸灰飞烟灭 :smile:）
+## No Need To Thank Me（Enjoy !! :smile:）
 
 Download highest quality videos from [pornhub](https://pornhub.com).
 
@@ -79,31 +79,6 @@ And then run:
 npm run url
 ```
 
-## Configuration
-
-You can config some params on `src/config.json`.
-
-`proxyUrl`: set up the proxy with port. For example: `http://127.0.0.1:1087`.
-If you don't need to set up proxy,just keep it empty string.
-
-`timeout`: set up request timeout.
-
-`search`: the keyword for searching.
-
-`barWidth`: the progress bar width, should be between 20 to 120, set up 60 by default.
-
-`barFullChar`: the 'finished char' for the progress bar.
-
-`barEmptyChar`: the 'unfinished char' for the progress bar.
-
-`downloadDir`: the directory you want to save videos.
-
-`pathname`: the pathname of the page you want to do download, for example: you want to download files from this page `https://www.pornhub.com/user/xxx/favorite`, then you can set `pathname` as `/user/xxx/favorite`.
-
 ## Download speed
 
 The speed depends on your local network or proxy.
-
-## LICENSE
-
-MIT
